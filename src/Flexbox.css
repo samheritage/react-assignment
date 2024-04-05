@@ -1,0 +1,88 @@
+.container_flex{
+    width: 800px;
+    height: 550px;
+    background-color: black;
+    margin-left: auto;
+    margin-right: auto;
+    
+.flex_container
+{
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+}
+}
+.grid_container{
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    height: 100px;
+    grid-row-gap: 0;
+    grid-gap: 2px;
+}
+.grid_container > h1
+{
+    margin: 0;
+    padding: 0;
+}
+.grid1{
+    background-color: purple;
+    height: 100px;
+    display: grid;
+    align-items: center;
+    justify-content: center;
+    color: white;
+}
+.grid2{
+    background-color: papayawhip;
+    height: 100px;
+    display: grid;
+    align-items: center;
+    justify-content: center;
+    }
+.grid3{
+    background-color: blue;
+    height: 100px;
+    display: grid;
+    align-items: center;
+    justify-content: center;
+    color: white;
+}    
+.grid4{
+    background-color:peru ;
+    height: 100px;
+    display: grid;
+    align-items: center;
+    justify-content: center;
+}
+.tab1{
+    background-color: red;
+    width: 150px;
+    height: 100px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.tab2{
+    background-color: greenyellow;
+    width: 150px;
+    height: 100px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}.tab3{
+    background-color: yellow;
+    width: 150px;
+    height: 100px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.tab4{
+    background-color: white;
+    width: 150px;
+    height: 100px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
